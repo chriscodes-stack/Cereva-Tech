@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cereva Tech — Where Neuro Meets Code</title>
+  <meta name="description" content="Cereva Tech — neurotechnology + software engineering. Author: Christine Mac-Asore.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg"></canvas>
+  <header class="nav">
+    <div class="brand">
+      <div class="logo-svg" aria-hidden="true">
+        <!-- simple svg logo -->
+        <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g1" x1="0%" x2="100%">
+              <stop offset="0%" stop-color="#00d4ff"/>
+              <stop offset="100%" stop-color="#7b5cff"/>
+            </linearGradient>
+          </defs>
+          <circle cx="50" cy="50" r="38" fill="url(#g1)" opacity="0.12"/>
+          <path d="M28 55 Q45 30 72 52" stroke="url(#g1)" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M32 70 Q50 45 68 68" stroke="url(#g1)" stroke-width="4" fill="none" stroke-linecap="round" />
+        </svg>
+      </div>
+      <div class="brand-text">Cereva Tech</div>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#technology">Technology</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Where Neuro Meets Code</h1>
+        <p class="tagline">Cereva Tech — combining neurotechnology and software engineering to advance brain health.</p>
+        <div class="cta-row">
+          <a class="btn primary" id="download-btn" href="Cereva_Tech_Report.pdf" download>Download Project Report (PDF)</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="card-section">
+      <div class="card">
+        <h2>About Cereva Tech</h2>
+        <p>Founded by <strong>Christine Mac-Asore</strong>, Cereva Tech is a personal neurotechnology and software engineering initiative building intelligent systems and machines to read, analyze, and assist the brain.</p>
+        <p>We build research-focused prototypes that combine EEG acquisition hardware, machine learning, and secure web platforms for visualization and clinical-friendly reporting.</p>
+      </div>
+    </section>
+
+    <section id="technology" class="card-section">
+      <div class="card">
+        <h2>Technology</h2>
+        <ul>
+          <li><strong>EEG-based acquisition</strong> with a low-noise analog front end (ADS1299/OpenBCI)</li>
+          <li><strong>Edge & cloud processing</strong> for real-time classification and storage</li>
+          <li><strong>Machine learning</strong> pipelines for neural state detection</li>
+          <li><strong>Secure APIs & dashboard</strong> for clinicians and researchers</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="research" class="card-section">
+      <div class="card">
+        <h2>Research & Applications</h2>
+        <p>Applications include diagnostic support, cognitive monitoring, and rehabilitation tools. Cereva Tech focuses on responsible research practices, privacy, and safety for prototypes involving human data.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="card-section">
+      <div class="card">
+        <h2>Contact & Collaboration</h2>
+        <p>Interested in collaborating, mentoring, or testing the Cereva MindLink prototype? Reach out via email:</p>
+        <p><a class="email" href="mailto:christine.mac-asore@example.com">christine.mac-asore@example.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© 2025 Christine Mac-Asore — Cereva Tech. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
